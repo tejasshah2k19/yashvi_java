@@ -1,0 +1,47 @@
+abstract class 
+
+	having abstract and nob abstract method 
+	we can not create instance of abstract class 
+	we have to create child and override all the abstact method from abstract class 	
+interface 
+	its pure abstract class 
+	all methods are public and abstract 
+	all variables are public static and final 
+	
+final variables are constant and can not modify 
+
+we don't have abstract variable we have abstract method and if method is 
+abstract then class must be an abstract
+
+
+we can have constructor in abstract class 
+
+we can not have constructor in interface 
+
+we can not create instance of interface 
+
+-------------------------------------------------------------
+
+you can give any name to java file , when you compile your java file you have to 
+compile with filename 
+
+javac filename.java 
+java className
+
+
+it is not necessary that you save your java file with main method class name. 
+
+if you have public class , then you must have to save java file with that public class name
+
+by default in cpp all methods are private but in java all methods are default 
+
+so we have 4 access specifier 
+
+private
+default
+protected 
+public 
+
+
+
+
