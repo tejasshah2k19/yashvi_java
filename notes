@@ -42,6 +42,84 @@ default
 protected 
 public 
 
+------------------------------------------------------------------
+
+naming convention 
+
+class/interface --> Employee , TemEmployee 
+variable --> salary , totalSalary 
+method --> add() , addSalary() 
+constant variable => all cap -> MAX , MAX_SALARY 
+
+--------------------------------------------------------------------
+
+data type 
+
+primitive 
+	byte , short , char , int , long , float , double , boolean 
+
+non primitive 
+	class , object , enum , array 
+	
+	
+--------------------------------------------------------------------
+
+class Print{
+	//8 primitive 
+	
+	void display(){
+	   // print all 8 variable
+	}
+	//main method will cal display 
+}
+	
+	we will not get gv 
+	
+	because of constructor 
+	
+	implicit constructor assign default value 
+	number -> int -> 0 , real -> 0.0 
+	char -> null character 
+	object -> null
+	
+	above is only applicable in instance variable. 
+--------------------------------------------------------------------
+
+we can not create instance of Math class beacuase it's constructor is private
+
+then how we can access method of Math class?
+using Math.  -> cz all methods are static 
+
+static property can access via class name , we don't required any instance for that 
+----------------------------------------------------------------------
+
+
+String is a class in java 
+you dont need to create character array , you can create character array
+
+String s = new String("royal");
+System.out.println(s);
+--------------------------------
+
+
+1)take file name from user and check file is present or not? 
+enter file name 
+c:\\Temp\\data.txt 
+File is not Present 
+
+2) take folder name from user and print all the file name who start with a, e,i,o,u 
+--------------------------------
+
+
+
+
+
+
+
+
+
+
+
 
 
 
