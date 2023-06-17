@@ -27,5 +27,31 @@ public class ArrayDemo {
 		// sum => 150
 		// min => 10
 		// max => 50
+
+		int t[][];
+		int [][]k;
+		int []u[];
+		
+		int g[][]=new int[3][4];
+		//00 01 02 03 
+		//10 11 12 13 
+		//20 21 22 23 
+		
+		for(int i=0;i<3;i++) {
+			for(int j=0;j<4;j++) {
+				System.out.println("Enter num");
+				g[i][j] = scr.nextInt();
+			}
+		}
+		
+
+		for(int i=0;i<3;i++) {
+			for(int j=0;j<4;j++) {
+				System.out.print(g[i][j]+" ");
+			}
+			System.out.println("");
+		}
+		
+		
 	}
 }
