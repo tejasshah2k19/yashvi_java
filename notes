@@ -158,6 +158,37 @@ you need to create display method that will print name and fees of the student
 
 -----------------------------------------------------
 
+mysql connect -> black window
+
+create database yashvi; 
+
+use yashvi; 
+
+product -> productId , name , qty 
+
+table -> 
+
+	create table product(
+		productId integer,
+		name varchar(30),
+		qty integer
+		);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
